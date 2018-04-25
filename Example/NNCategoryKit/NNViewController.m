@@ -7,6 +7,7 @@
 //
 
 #import "NNViewController.h"
+#import "UIView+NNUIKit.h"
 
 @interface NNViewController ()
 
@@ -17,7 +18,10 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+    UIButton *button = [UIButton createButtonTitle:@"a" textColor:[UIColor yellowColor] font:11 target:self action:nil];
+    [self.view addSubview:button];
+    button.backgroundColor = [UIColor yellowColor];
+    button.frame = CGRectMake(100, 100, 100, 100);
 }
 
 - (void)didReceiveMemoryWarning
