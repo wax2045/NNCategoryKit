@@ -1,0 +1,12 @@
+use_frameworks!
+
+target 'NNCategoryKit_Example' do
+  pod 'NNCategoryKit', :path => '../'
+
+  target 'NNCategoryKit_Tests' do
+    inherit! :search_paths
+
+    pod 'Specta'
+    pod 'Expecta'
+  end
+end
