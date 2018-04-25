@@ -1,0 +1,22 @@
+PODS:
+  - Expecta (1.0.6)
+  - NNCategoryKit (0.1.0)
+  - Specta (1.0.7)
+
+DEPENDENCIES:
+  - Expecta
+  - NNCategoryKit (from `../`)
+  - Specta
+
+EXTERNAL SOURCES:
+  NNCategoryKit:
+    :path: ../
+
+SPEC CHECKSUMS:
+  Expecta: 3b6bd90a64b9a1dcb0b70aa0e10a7f8f631667d5
+  NNCategoryKit: 393891634aa722df770d88f22d2eadcbed534619
+  Specta: 3e1bd89c3517421982dc4d1c992503e48bd5fe66
+
+PODFILE CHECKSUM: 7f8608c9ef306d93eda1302ce744322288719386
+
+COCOAPODS: 1.2.1
